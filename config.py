@@ -76,18 +76,18 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://images.app.goo.gl/j7Eq9WyfZB9qKA1t6")
+START_IMG_URL = getenv("START_IMG_URL", "https://images.app.goo.gl/mtEhmifGdJn92VH77")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
     "https://images.app.goo.gl/sZchWhFinM1vb4Bs9",
 )
 
-PLAYLIST_IMG_URL = "https://images.app.goo.gl/rcNY1uNxT7BtMZz89"
+PLAYLIST_IMG_URL = "https://images.app.goo.gl/mtEhmifGdJn92VH77"
 
-GLOBAL_IMG_URL = "https://images.app.goo.gl/rcNY1uNxT7BtMZz89"
+GLOBAL_IMG_URL = "https://images.app.goo.gl/mtEhmifGdJn92VH77"
 
-STATS_IMG_URL = "https://images.app.goo.gl/rcNY1uNxT7BtMZz89"
+STATS_IMG_URL = "https://images.app.goo.gl/mtEhmifGdJn92VH77"
 
 TELEGRAM_AUDIO_URL = "https://images.app.goo.gl/h5DMKrHyzMSRhV3o9"
 
@@ -130,9 +130,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://images.app.goo.gl/sZchWhFinM1vb4Bs9"
+            PING_IMG_URL = "https://images.app.goo.gl/mtEhmifGdJn92VH77"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://images.app.goo.gl/j7Eq9WyfZB9qKA1t6"
+            START_IMG_URL = "https://images.app.goo.gl/mtEhmifGdJn92VH77"
