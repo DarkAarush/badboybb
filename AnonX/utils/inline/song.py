@@ -15,7 +15,7 @@ def song_markup(_, vidid):
         ],
         [
             InlineKeyboardButton(
-                text="𝐉𝗂ⱺ 𝐒αα𝗏𐓣", url=f"https://www.jiosaavn.com/",
+                text="💋⃝❤️‍🔥𝐁𝐀𝐃 𝐁𝐎𝐘𓆩😈⃝❤️‍🔥𓆩𝐑𝐁𝐆𓆪 💋⃝❤️‍🔥", url=f"https://t.me/LoVeWordChat",
             ),
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"], callback_data="close"
