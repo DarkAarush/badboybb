@@ -9,8 +9,8 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="𝐀ᑯᑯ 𝐉𝗂ⱺ 𝐒αα𝗏𐓣 𝚰𐓣 𝐆𝗋ⱺυρ ",
-                url=f"https://t.me/JiosaavnTetrisbot?startgroup=true",
+                text="💋⃝❤️‍🔥𝐁𝐀𝐃 𝐁𝐎𝐘𓆩😈⃝❤️‍🔥𓆩𝐑𝐁𝐆𓆪 💋⃝❤️‍🔥 𝚰𐓣 𝐆𝗋ⱺυρ ",
+                url=f"https://t.me/Bad_Music_Tetrisbot?startgroup=true",
             )
         ],
         [
@@ -30,8 +30,8 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="𝐀ᑯᑯ 𝐉𝗂ⱺ 𝐒αα𝗏𐓣 𝚰𐓣 𝐆𝗋ⱺυρ",
-                url=f"https://t.me/JiosaavnTetrisbot?startgroup=true",
+                text="💋⃝❤️‍🔥𝐁𝐀𝐃 𝐁𝐎𝐘𓆩😈⃝❤️‍🔥𓆩𝐑𝐁𝐆𓆪 💋⃝❤️‍🔥𝚰𐓣 𝐆𝗋ⱺυρ",
+                url=f"https://t.me/Bad_Music_Tetrisbot?startgroup=true",
             )
         ],
         [
@@ -39,7 +39,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="𝑯𝒆𝒍𝒑", callback_data="settings_back_helper"
             ),
             InlineKeyboardButton(
-                text="𝐉𝗂ⱺ 𝐒αα𝗏𐓣", url=f"https://www.jiosaavn.com/"
+                text="💋⃝❤️‍🔥𝐁𝐀𝐃 𝐁𝐎𝐘𓆩😈⃝❤️‍🔥𓆩𝐑𝐁𝐆𓆪 💋⃝❤️‍🔥", url=f"https://t.me/LoVeWordChat"
             )
         ],
      ]
